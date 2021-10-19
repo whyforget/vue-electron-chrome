@@ -1,12 +1,12 @@
 return {
   // 应用名字
-  // APP_NAME: 'Msmk Browser',
+   APP_NAME: '管账云',
 
   // 应用地址
-  APP_URL: 'http://www.baidu.com',
+  APP_URL: 'https://guanzhangyun.com/login',
 
   // 应用标题
-  // APP_TITLE: '美思美科应用容器',
+  APP_TITLE: '',
 
   // 标题栏高度
   // APP_TITLE_BAR_HEIGHT: 30,
@@ -30,7 +30,7 @@ return {
   // frame: false,
 
   // 开启kiosk模式
-  // kiosk: false,
+   kiosk: false,
 
   // 开启右键菜单
   contextmenu: true,
@@ -42,7 +42,7 @@ return {
   // transparent: flase,
 
   // 使用窗口大小使用网页尺寸
-  // useContentSize: false,
+   useContentSize: true,
 
   // 任务栏是否显示应用
   // skipTaskbar: true,
@@ -51,9 +51,11 @@ return {
   ignoringCache: false,
 
   // 窗口 https://electronjs.org/docs/api/browser-window
-  // other: {
-  //   resizable: false,
-  //   width: 320,
-  //   height: 520
-  // }
+  other: {
+    resizable: true,
+     //width: 800,
+     //height: 800,
+     //simpleFullscreen:true
+     //minimizable:true
+  }
 }
